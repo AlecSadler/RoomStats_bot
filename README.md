@@ -16,7 +16,7 @@ pip3 install pyTelegramBotAPI
 ## Launching Bot
 
 - Create a Telegram bot and insert the API Token in parameters.py file
-- Type in which PIN number is linked the DATA jumper of the DHT22 sensor
+- Type in which PIN number is linked the DATA jumper of the DHT22 sensor in parameters.py file
 
 ```bash
 python3 main.py
