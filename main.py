@@ -23,6 +23,8 @@ bot = telebot.TeleBot(BOT_TOKEN)
 def get_room_status(command):
     print("Request received.")
     status = read_data_from_sensor()
+    time.sleep(2)
+    status = read_data_from_sensor()
     bot.send_message(command.from_user.id, f"Temperature: {status[0]} - Humidity: {status[1]}")
 
 
